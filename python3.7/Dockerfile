@@ -1,6 +1,6 @@
-FROM tiangolo/uwsgi-nginx:python3.7
+FROM arberx/uwsgi-nginx:python3.7
 
-LABEL maintainer="Sebastian Ramirez <tiangolo@gmail.com>"
+LABEL maintainer="Arber Xhindoli <xhindoliarber@gmail.com>"
 
 RUN pip install flask
 
